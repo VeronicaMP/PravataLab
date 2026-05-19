@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Research Lab</title>
+    <meta name="description" content="Nexus Research Lab - Advancing computing and science.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Nexus Lab</a>
+            <button class="menu-toggle" aria-label="Toggle Menu" id="menu-toggle">
+                <!-- Inline SVG for hamburger icon (no external libraries) -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home">Home</a>
+                <a href="#research">Research</a>
+                <a href="#people">People</a>
+                <a href="#publications">Publications</a>
+                <a href="#join">Join Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Pioneering Next-Generation Systems</h1>
+                    <p class="mission">We are an interdisciplinary research group focused on the intersection of artificial intelligence, distributed systems, and computational biology. Our mission is to build robust, scalable architectures for tomorrow's most complex challenges.</p>
+                </div>
+                <div class="hero-visual">
+                    <!-- Placeholder for team photo or abstract graphic -->
+                    <div class="image-placeholder">
+                        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                            <polyline points="21 15 16 10 5 21"></polyline>
+                        </svg>
+                        <span>Hero Image / Graphic</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="research" class="section-alt">
+            <div class="container">
+                <h2>Research Areas</h2>
+                <div class="grid-3">
+                    <article class="card">
+                        <h3>Machine Learning Systems</h3>
+                        <p>Developing novel optimization frameworks for training large-scale models across heterogeneous computing clusters with minimal communication overhead.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Bioinformatics</h3>
+                        <p>Creating efficient algorithms for genomics and proteomics data analysis, enabling faster insights in structural biology.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Distributed Consensus</h3>
+                        <p>Investigating fault-tolerant protocols for decentralized networks, aiming to improve throughput without sacrificing security.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="people" class="section">
+            <div class="container">
+                <h2>People</h2>
+                
+                <div class="pi-section">
+                    <article class="card pi-card">
+                        <div class="avatar-placeholder large">
+                            <span>PI Image</span>
+                        </div>
+                        <div class="pi-info">
+                            <h3>Dr. Jane Doe</h3>
+                            <p class="role">Principal Investigator & Associate Professor</p>
+                            <p class="bio">Dr. Doe leads the Nexus Lab. She received her Ph.D. from Tech University and focuses on systems architecture, bringing interdisciplinary approaches to complex computational problems.</p>
+                            <div class="social-links">
+                                <a href="#">Google Scholar</a>
+                                <a href="#">GitHub</a>
+                                <a href="#">Twitter</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <h3 class="team-heading">Researchers & Students</h3>
+                <div class="grid-4">
+                    <article class="card person-card">
+                        <div class="avatar-placeholder"><span>Image</span></div>
+                        <h4>John Smith</h4>
+                        <p class="role">Postdoctoral Researcher</p>
+                        <div class="social-links small">
+                            <a href="#">Scholar</a> | <a href="#">GitHub</a>
+                        </div>
+                    </article>
+                    <article class="card person-card">
+                        <div class="avatar-placeholder"><span>Image</span></div>
+                        <h4>Alice Johnson</h4>
+                        <p class="role">Ph.D. Student</p>
+                        <div class="social-links small">
+                            <a href="#">Scholar</a> | <a href="#">GitHub</a>
+                        </div>
+                    </article>
+                    <article class="card person-card">
+                        <div class="avatar-placeholder"><span>Image</span></div>
+                        <h4>Bob Chen</h4>
+                        <p class="role">Ph.D. Student</p>
+                        <div class="social-links small">
+                            <a href="#">Scholar</a> | <a href="#">GitHub</a>
+                        </div>
+                    </article>
+                    <article class="card person-card">
+                        <div class="avatar-placeholder"><span>Image</span></div>
+                        <h4>Sarah Williams</h4>
+                        <p class="role">M.S. Student</p>
+                        <div class="social-links small">
+                            <a href="#">Scholar</a> | <a href="#">GitHub</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="section-alt">
+            <div class="container">
+                <h2>Selected Publications</h2>
+                <ul class="pub-list">
+                    <li class="pub-item">
+                        <div class="pub-content">
+                            <h4 class="pub-title">Efficient Distributed Training via Asynchronous Optimization</h4>
+                            <p class="pub-authors"><strong>Doe, J.</strong>, Smith, J., & Chen, B.</p>
+                            <p class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2023</p>
+                        </div>
+                        <div class="pub-links">
+                            <a href="#" class="pill">PDF</a>
+                            <a href="#" class="pill">Code</a>
+                            <a href="#" class="pill">Dataset</a>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-content">
+                            <h4 class="pub-title">Genomic Sequence Alignment at Scale</h4>
+                            <p class="pub-authors">Johnson, A., <strong>Doe, J.</strong></p>
+                            <p class="pub-venue">Bioinformatics Journal, 2022</p>
+                        </div>
+                        <div class="pub-links">
+                            <a href="#" class="pill">PDF</a>
+                            <a href="#" class="pill">Code</a>
+                        </div>
+                    </li>
+                    <li class="pub-item">
+                        <div class="pub-content">
+                            <h4 class="pub-title">A Survey of Fault-Tolerant Consensus Protocols</h4>
+                            <p class="pub-authors">Williams, S., <strong>Doe, J.</strong></p>
+                            <p class="pub-venue">ACM Computing Surveys, 2021</p>
+                        </div>
+                        <div class="pub-links">
+                            <a href="#" class="pill">PDF</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="join" class="section">
+            <div class="container">
+                <div class="contact-box">
+                    <h2>Join Us</h2>
+                    <p>We are always looking for motivated Ph.D. students and postdocs. If you are passionate about building systems and exploring the frontiers of AI, we'd love to hear from you.</p>
+                    <p>Please send an email with your CV and a brief statement of your research interests.</p>
+                    
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> <a href="mailto:contact@nexuslab.edu">contact@nexuslab.edu</a></p>
+                        <p><strong>Location:</strong> Room 404, Computer Science Building<br>University Name, City, State, ZIP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2024 Nexus Research Lab. All rights reserved.</p>
+            <p class="footer-note">Powered by GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script>
+        // Minimal JavaScript for mobile menu toggle
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
