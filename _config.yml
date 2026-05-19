@@ -1,0 +1,14 @@
+title: Nexus Research Lab
+description: Nexus Research Lab - Advancing computing and science.
+baseurl: ""
+url: "http://localhost:4000"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Dockerfile
+  - docker-compose.yml
+  - .gitignore
+  - README.md
+  - start.sh
+  - .git
