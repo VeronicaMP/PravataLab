@@ -1,51 +1,541 @@
 [
   {
-    "title": "Efficient Distributed Training via Asynchronous Optimization",
+    "title": "Developmental gene expression patterns driving species-specific cortical features",
     "authors": [
-      "Doe, J.",
-      "Smith, J.",
-      "Chen, B."
+      "Awais Javed",
+      "Lucía Gómez",
+      "V. Pravata",
+      "Moein Sarhadi",
+      "Quentin Lo Giudice",
+      "Timéa Szalai",
+      "L. Aubert",
+      "Théo Ribierre",
+      "Laurent Nguyen",
+      "Silvia Cappello",
+      "D. Jabaudon",
+      "Esther Klingler"
+    ],
+    "date": [
+      2026,
+      1
+    ],
+    "journal": "Nature",
+    "link": "https://doi.org/10.1038/s41586-026-10491-x",
+    "citations": 0
+  },
+  {
+    "title": "A reproducible human brain tissue model to study physiological and disease-associated microglia phenotypes",
+    "authors": [
+      "Julien Klimmt",
+      "Carolina Cardoso Gonçalves",
+      "J. V. Montgomery",
+      "Stephan A. Müller",
+      "Merle Bublitz",
+      "S. Filser",
+      "L. Paeger",
+      "B. Nuscher",
+      "Angelika Dannert",
+      "Sigrun Roeber",
+      "V. Pravata",
+      "Martina Schifferer",
+      "J. Shrouder",
+      "Nathalie Schulz",
+      "J. Gallego",
+      "Silvia Cappello",
+      "Thomas Misgeld",
+      "Nikolaus Plesnila",
+      "E. Beltrán",
+      "Jochen Herms",
+      "Elena De Domenico",
+      "M. Beyer",
+      "J. Schultze",
+      "Christian Haass",
+      "Stefan F. Lichtenthaler",
+      "C. Carraro",
+      "Dominik Paquet"
+    ],
+    "date": [
+      2026,
+      1
+    ],
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.64898/2026.01.20.699077",
+    "citations": 1
+  },
+  {
+    "title": "Developmental gene expression patterns driving species-specific cortical features",
+    "authors": [
+      "Awais Javed",
+      "Lucía Gómez",
+      "V. Pravata",
+      "Quentin Lo Giudice",
+      "Moein Sarhadi",
+      "Silvia Cappello",
+      "Esther Klingler",
+      "D. Jabaudon"
+    ],
+    "date": [
+      2025,
+      1
+    ],
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.1101/2025.02.18.638637",
+    "citations": 4
+  },
+  {
+    "title": "P2X purinergic receptors are required for correct cortical development in human brain organoids.",
+    "authors": [
+      "María Benito-León",
+      "Julia Serrano-López",
+      "Celia Llorente-Sáez",
+      "Marina Arribas-Blázquez",
+      "L. Olivos-Oré",
+      "V. Pravata",
+      "Raquel Pérez-Sen",
+      "E. Delicado",
+      "Micha Drukker",
+      "A. R. Artalejo",
+      "Silvia Cappello",
+      "R. Gómez-Villafuertes",
+      "Felipe Ortega"
+    ],
+    "date": [
+      2025,
+      1
+    ],
+    "journal": "Neuropharmacology",
+    "link": "https://doi.org/10.1016/j.neuropharm.2025.110784",
+    "citations": 0
+  },
+  {
+    "title": "Zscan4 as a Candidate Conveyor of Early Developmental Defects in O-GlcNAc Transferase Intellectual Disability",
+    "authors": [
+      "V. Pravata",
+      "Hao Jiang",
+      "A. Ferenbach",
+      "A. Lamond",
+      "D. M. V. van Aalten"
+    ],
+    "date": [
+      2025,
+      1
+    ],
+    "journal": "Molecular & Cellular Proteomics",
+    "link": "https://doi.org/10.1016/j.mcpro.2025.101077",
+    "citations": 0
+  },
+  {
+    "title": "Intrinsic and extrinsic mechanisms alter neural cell fate specification in EPM1 Epilepsy",
+    "authors": [
+      "Andrea Forero",
+      "V. Pravata",
+      "Fabrizia Pipicelli",
+      "Alessandro Soloperto",
+      "Francesco Di Matteo",
+      "Zagorka Bekjarova",
+      "Elisa Frenna",
+      "L. Canafoglia",
+      "F. Ragona",
+      "G. Maccarrone",
+      "Mariano Gonzalez Pisfil",
+      "Christian Whal-Schott",
+      "Filippo M. Cernilogar",
+      "Matthias Eder",
+      "R. Di Giaimo",
+      "Silvia Cappello"
+    ],
+    "date": [
+      2024,
+      1
+    ],
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.1101/2024.11.20.624470",
+    "citations": 0
+  },
+  {
+    "title": "Neuronal hyperactivity in neurons derived from individuals with gray matter heterotopia",
+    "authors": [
+      "Francesco Di Matteo",
+      "Rebecca Bonrath",
+      "H. Schmidt",
+      "A. C. Ayo Martin",
+      "V. Pravata",
+      "R. Di Giaimo",
+      "Danusa Menegaz",
+      "S. Riesenberg",
+      "Femke M. S. de Vrij",
+      "G. Maccarrone",
+      "Maria Holzapfel",
+      "Tobias Straub",
+      "S.A. Kushner",
+      "Stephen P. Robertson",
+      "Matthias Eder",
+      "Silvia Cappello"
+    ],
+    "date": [
+      2024,
+      1
+    ],
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.1038/s41467-025-56998-1",
+    "citations": 5
+  },
+  {
+    "title": "An O-GlcNAc transferase pathogenic variant linked to intellectual disability affects pluripotent stem cell self-renewal",
+    "authors": [
+      "M. Omelková",
+      "C. Fenger",
+      "Marta Murray",
+      "T. Hammer",
+      "V. Pravata",
+      "S. G. Bartual",
+      "Ignacy Czajewski",
+      "A. Bayat",
+      "A. Ferenbach",
+      "M. Stavridis",
+      "D. V. van Aalten"
     ],
     "date": [
       2023,
-      11
+      1
     ],
-    "journal": "Conference on Neural Information Processing Systems (NeurIPS)",
-    "link": "https://scholar.google.com",
-    "volume": "36",
-    "pages": "1024-1035",
-    "citations": 42
+    "journal": "Disease Models & Mechanisms",
+    "link": "https://doi.org/10.1242/dmm.049132",
+    "citations": 14
   },
   {
-    "title": "Genomic Sequence Alignment at Scale",
+    "title": "An O-GlcNAc transferase pathogenic variant that affects pluripotent stem cell self-renewal",
     "authors": [
-      "Johnson, A.",
-      "Doe, J."
+      "M. Omelková",
+      "C. Fenger",
+      "Marta Murray",
+      "T. Hammer",
+      "V. Pravata",
+      "S. G. Bartual",
+      "Ignacy Czajewski",
+      "A. Bayat",
+      "A. Ferenbach",
+      "M. Stavridis",
+      "D. V. van Aalten"
+    ],
+    "date": [
+      2023,
+      1
+    ],
+    "journal": "bioRxiv",
+    "link": "https://doi.org/10.1101/2023.03.13.531514",
+    "citations": 1
+  },
+  {
+    "title": "O-GlcNAcylation enhances CPS1 catalytic efficiency for ammonia and promotes ureagenesis",
+    "authors": [
+      "L. Soria",
+      "Georgios Makris",
+      "A. D’Alessio",
+      "Angela De Angelis",
+      "I. Boffa",
+      "V. Pravata",
+      "V. Rüfenacht",
+      "S. Attanasio",
+      "E. Nusco",
+      "Paola Arena",
+      "A. Ferenbach",
+      "D. Paris",
+      "P. Cuomo",
+      "A. Motta",
+      "Matthew Nitzahn",
+      "G. Lipshutz",
+      "A. Martínez-Pizarro",
+      "E. Richard",
+      "L. Desviat",
+      "J. Häberle",
+      "D. V. van Aalten",
+      "N. Brunetti‐Pierri"
     ],
     "date": [
       2022,
-      5
+      1
     ],
-    "journal": "Bioinformatics Journal",
-    "link": "https://scholar.google.com",
-    "volume": "38",
-    "pages": "512-520",
+    "journal": "Nature Communications",
+    "link": "https://doi.org/10.1038/s41467-022-32904-x",
     "citations": 18
   },
   {
-    "title": "A Survey of Fault-Tolerant Consensus Protocols",
+    "title": "O-GlcNAcylation enhances CPS1 catalytic efficiency for ammonia and promotes ureagenesis",
     "authors": [
-      "Williams, S.",
-      "Doe, J."
+      "L. Soria",
+      "Georgios Makris",
+      "A. D’Alessio",
+      "A. Angelis",
+      "I. Boffa",
+      "V. Pravata",
+      "V. Rüfenacht",
+      "S. Attanasio",
+      "E. Nusco",
+      "Paola Arena",
+      "A. Ferenbach",
+      "D. Paris",
+      "P. Cuomo",
+      "A. Motta",
+      "Matthew Nitzahn",
+      "G. Lipshutz",
+      "A. Martínez-Pizarro",
+      "E. Richard",
+      "L. Desviat",
+      "J. Häberle",
+      "D. Aalten",
+      "N. Brunetti‐Pierri"
+    ],
+    "date": [
+      2022,
+      1
+    ],
+    "journal": "",
+    "link": "https://doi.org/10.1038/s41467-022-32904-x",
+    "citations": 0
+  },
+  {
+    "title": "The citron homology domain as a scaffold for Rho1 signaling",
+    "authors": [
+      "S. G. Bartual",
+      "Wenfan Wei",
+      "Yao Zhou",
+      "V. Pravata",
+      "W. Fang",
+      "Kaizhou Yan",
+      "A. Ferenbach",
+      "D. Lockhart",
+      "D. V. van Aalten"
     ],
     "date": [
       2021,
-      9
+      1
     ],
-    "journal": "ACM Computing Surveys",
-    "link": "https://scholar.google.com",
-    "volume": "54",
-    "pages": "1-35",
-    "citations": 95
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "link": "https://doi.org/10.1073/pnas.2110298118",
+    "citations": 12
+  },
+  {
+    "title": "Quantitative Proteomics Reveals Changes Induced by TIMP-3 on Cell Membrane Composition and Novel Metalloprotease Substrates",
+    "authors": [
+      "A. Carreca",
+      "V. Pravata",
+      "Danilo D’Apolito",
+      "S. Bonelli",
+      "M. Calligaris",
+      "Elisa Monaca",
+      "S. Müller",
+      "S. Lichtenthaler",
+      "Simone D Scilabra"
+    ],
+    "date": [
+      2021,
+      1
+    ],
+    "journal": "International Journal of Molecular Sciences",
+    "link": "https://doi.org/10.3390/ijms22052392",
+    "citations": 6
+  },
+  {
+    "title": "An intellectual disability syndrome with single-nucleotide variants in O-GlcNAc transferase",
+    "authors": [
+      "V. Pravata",
+      "M. Omelková",
+      "M. Stavridis",
+      "Chelsea M. Desbiens",
+      "H. Stephen",
+      "D. Lefeber",
+      "J. Gécz",
+      "M. Gundogdu",
+      "K. Õunap",
+      "S. Joss",
+      "C. Schwartz",
+      "L. Wells",
+      "D. V. van Aalten"
+    ],
+    "date": [
+      2020,
+      1
+    ],
+    "journal": "European Journal of Human Genetics",
+    "link": "https://doi.org/10.1038/s41431-020-0589-9",
+    "citations": 60
+  },
+  {
+    "title": "University of Dundee An intellectual disability syndrome with single nucleotide variants in O-GlcNAc Transferase Pravata,",
+    "authors": [
+      "V. Pravata",
+      "M. Omelková",
+      "M. Stavridis",
+      "Chelsea M. Desbiens",
+      "H. Stephen",
+      "D. Lefeber",
+      "J. Gécz",
+      "M. Gundogdu",
+      "K. Õunap",
+      "S. Joss",
+      "C. Schwartz",
+      "L. Wells",
+      "D. V. Aalten"
+    ],
+    "date": [
+      2020,
+      1
+    ],
+    "journal": "",
+    "link": "https://www.semanticscholar.org/paper/4f760b3f64e15e29dfddb0d4301fed07c2f53dbe",
+    "citations": 0
+  },
+  {
+    "title": "An intellectual disability syndrome with single-nucleotide variants in O-GlcNAc transferase",
+    "authors": [
+      "V. Pravata",
+      "M. Omelková",
+      "M. Stavridis",
+      "Chelsea M. Desbiens",
+      "H. Stephen",
+      "D. Lefeber",
+      "J. Gécz",
+      "M. Gundogdu",
+      "K. Õunap",
+      "S. Joss",
+      "C. Schwartz",
+      "L. Wells",
+      "D. V. van Aalten"
+    ],
+    "date": [
+      2020,
+      1
+    ],
+    "journal": "European Journal of Human Genetics",
+    "link": "https://doi.org/10.1038/s41431-020-0589-9",
+    "citations": 5
+  },
+  {
+    "title": "A missense mutation in the catalytic domain of O‐GlcNAc transferase links perturbations in protein O‐GlcNAcylation to X‐linked intellectual disability",
+    "authors": [
+      "V. Pravata",
+      "M. Gundogdu",
+      "S. G. Bartual",
+      "A. Ferenbach",
+      "M. Stavridis",
+      "K. Õunap",
+      "S. Pajusalu",
+      "R. Žordania",
+      "M. Wojcik",
+      "D. Aalten"
+    ],
+    "date": [
+      2019,
+      1
+    ],
+    "journal": "FEBS Letters",
+    "link": "https://doi.org/10.1002/1873-3468.13640",
+    "citations": 48
+  },
+  {
+    "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
+    "authors": [
+      "A. Carreca",
+      "V. Pravata",
+      "Matthew Markham",
+      "S. Bonelli",
+      "G. Murphy",
+      "H. Nagase",
+      "L. Troeberg",
+      "Simone D Scilabra"
+    ],
+    "date": [
+      2019,
+      1
+    ],
+    "journal": "Scientific Reports",
+    "link": "https://doi.org/10.1038/s41598-020-69008-9",
+    "citations": 32
+  },
+  {
+    "title": "University of Dundee A missense mutation in the catalytic domain of O-GlcNAc transferase links perturbations in protein O-GlcNAcylation to X-linked intellectual disability Pravata,",
+    "authors": [
+      "V. Pravata",
+      "M. Gundogdu",
+      "S. G. Bartual",
+      "A. Ferenbach",
+      "M. Stavridis",
+      "K. Õunap",
+      "S. Pajusalu",
+      "R. Žordania",
+      "H. Monica",
+      "Wójcik",
+      "D. Aalten"
+    ],
+    "date": [
+      2019,
+      1
+    ],
+    "journal": "",
+    "link": "https://www.semanticscholar.org/paper/acb6a063fb8743fcb8c19c96cfa05ac0ba7ba4ed",
+    "citations": 0
+  },
+  {
+    "title": "Catalytic deficiency of O-GlcNAc transferase leads to X-linked intellectual disability",
+    "authors": [
+      "V. Pravata",
+      "Villő Muha",
+      "M. Gundogdu",
+      "A. Ferenbach",
+      "Poonam S. Kakade",
+      "Vasudha Vandadi",
+      "A. C. Wilmes",
+      "V. Borodkin",
+      "S. Joss",
+      "M. Stavridis",
+      "D. V. van Aalten"
+    ],
+    "date": [
+      2019,
+      1
+    ],
+    "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+    "link": "https://doi.org/10.1073/pnas.1900065116",
+    "citations": 70
+  },
+  {
+    "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
+    "authors": [
+      "Simone D Scilabra",
+      "Martina Pigoni",
+      "V. Pravata",
+      "Tobias Schätzl",
+      "S. Müller",
+      "L. Troeberg",
+      "S. Lichtenthaler"
+    ],
+    "date": [
+      2018,
+      1
+    ],
+    "journal": "Scientific Reports",
+    "link": "https://doi.org/10.1038/s41598-018-32910-4",
+    "citations": 26
+  },
+  {
+    "title": "A small protein is involved in tryptophan biosynthesis and morpho-physiological differentiation in Streptomyces coelicolor",
+    "authors": [
+      "E. Palazzotto",
+      "A. Vassallo",
+      "G. Gallo",
+      "T. Faddetta",
+      "L. Cutugno",
+      "V. Pravata",
+      "L. Botta",
+      "A. Puglia"
+    ],
+    "date": [
+      2015,
+      1
+    ],
+    "journal": "",
+    "link": "https://www.semanticscholar.org/paper/de03ec4d02e6193f03adf7605ea4daa498dd4957",
+    "citations": 0
   }
 ]
