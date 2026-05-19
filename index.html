@@ -174,42 +174,35 @@ Post-Translational Modifications">
 
         <section id="publications" class="section">
             <div class="container">
-                <h2>Selected Publications</h2>
-                <ul class="pub-list">
-                    <li class="pub-item">
-                        <div class="pub-content">
-                            <h4 class="pub-title">Efficient Distributed Training via Asynchronous Optimization</h4>
-                            <p class="pub-authors"><strong>Doe, J.</strong>, Smith, J., & Chen, B.</p>
-                            <p class="pub-venue">Conference on Neural Information Processing Systems (NeurIPS), 2023</p>
+                <h2>Publications</h2>
+                
+                <div class="publications-controls">
+                    <div class="search-wrapper">
+                        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        <input type="text" id="pub-search" placeholder="Search publications by title, author, venue..." aria-label="Search publications">
+                    </div>
+                    <div class="filter-wrapper">
+                        <span class="pub-count" id="pub-count">Loading...</span>
+                    </div>
+                </div>
+
+                <div id="publications-container">
+                    <div class="pub-loading">
+                        <div class="skeleton-year"></div>
+                        <div class="skeleton-item">
+                            <div class="skeleton-line title"></div>
+                            <div class="skeleton-line authors"></div>
+                            <div class="skeleton-line venue"></div>
                         </div>
-                        <div class="pub-links">
-                            <a href="#" class="pill">PDF</a>
-                            <a href="#" class="pill">Code</a>
-                            <a href="#" class="pill">Dataset</a>
+                        <div class="skeleton-item">
+                            <div class="skeleton-line title"></div>
+                            <div class="skeleton-line authors"></div>
                         </div>
-                    </li>
-                    <li class="pub-item">
-                        <div class="pub-content">
-                            <h4 class="pub-title">Genomic Sequence Alignment at Scale</h4>
-                            <p class="pub-authors">Johnson, A., <strong>Doe, J.</strong></p>
-                            <p class="pub-venue">Bioinformatics Journal, 2022</p>
-                        </div>
-                        <div class="pub-links">
-                            <a href="#" class="pill">PDF</a>
-                            <a href="#" class="pill">Code</a>
-                        </div>
-                    </li>
-                    <li class="pub-item">
-                        <div class="pub-content">
-                            <h4 class="pub-title">A Survey of Fault-Tolerant Consensus Protocols</h4>
-                            <p class="pub-authors">Williams, S., <strong>Doe, J.</strong></p>
-                            <p class="pub-venue">ACM Computing Surveys, 2021</p>
-                        </div>
-                        <div class="pub-links">
-                            <a href="#" class="pill">PDF</a>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -245,6 +238,185 @@ Post-Translational Modifications">
 
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
+        });
+
+        // Dynamic Publications Fetcher & Renderer
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('publications-container');
+            const searchInput = document.getElementById('pub-search');
+            const countDisplay = document.getElementById('pub-count');
+            
+            let allPublications = [];
+
+            // List of tokens to match for bolding lab members (case-insensitive)
+            const LAB_MEMBERS = ["pravata", "doe", "smith", "johnson", "chen", "williams"];
+
+            function isLabMember(author) {
+                if (!author) return false;
+                const tokens = author.toLowerCase().replace(/[^a-z\s]/g, '').split(/\s+/);
+                return tokens.some(token => LAB_MEMBERS.includes(token));
+            }
+
+            function getPublicationYear(pub) {
+                if (pub.date && Array.isArray(pub.date) && pub.date.length > 0) {
+                    return parseInt(pub.date[0], 10);
+                }
+                if (pub.year) {
+                    return parseInt(pub.year, 10);
+                }
+                return null;
+            }
+
+            function getSortKey(pub) {
+                const year = getPublicationYear(pub) || 0;
+                let month = 0;
+                let day = 0;
+                if (pub.date && Array.isArray(pub.date)) {
+                    month = pub.date[1] || 0;
+                    day = pub.date[2] || 0;
+                }
+                // Sort by year desc, month desc, day desc
+                return year * 10000 + month * 100 + day;
+            }
+
+            function renderPublications(pubs) {
+                if (pubs.length === 0) {
+                    container.innerHTML = `
+                        <div class="pub-empty">
+                            <p>No publications found matching your search.</p>
+                        </div>
+                    `;
+                    countDisplay.textContent = 'Showing 0 publications';
+                    return;
+                }
+
+                // Group by year
+                const groups = {};
+                pubs.forEach(pub => {
+                    const year = getPublicationYear(pub) || 'Other';
+                    if (!groups[year]) {
+                        groups[year] = [];
+                    }
+                    groups[year].push(pub);
+                });
+
+                // Sort years in descending order
+                const sortedYears = Object.keys(groups).sort((a, b) => {
+                    if (a === 'Other') return 1;
+                    if (b === 'Other') return -1;
+                    return parseInt(b, 10) - parseInt(a, 10);
+                });
+
+                let html = '';
+                sortedYears.forEach(year => {
+                    // Sort publications within the year by date descending
+                    groups[year].sort((a, b) => getSortKey(b) - getSortKey(a));
+
+                    html += `
+                        <div class="pub-year-group">
+                            <h3 class="pub-year-heading">${year}</h3>
+                            <ul class="pub-list">
+                    `;
+
+                    groups[year].forEach(pub => {
+                        const authorsArr = Array.isArray(pub.authors) ? pub.authors : [pub.authors];
+                        const formattedAuthors = authorsArr.map(author => {
+                            return isLabMember(author) ? `<strong>${author}</strong>` : author;
+                        }).join(', ');
+
+                        let venueDetails = '';
+                        if (pub.volume) venueDetails += `, Vol. ${pub.volume}`;
+                        if (pub.pages) venueDetails += `, pp. ${pub.pages}`;
+                        const venue = (pub.journal || pub.venue || '') + venueDetails;
+
+                        const titleHtml = pub.link 
+                            ? `<a href="${pub.link}" target="_blank" rel="noopener">${pub.title}</a>` 
+                            : pub.title;
+
+                        const linkPill = pub.link 
+                            ? `<a href="${pub.link}" target="_blank" rel="noopener" class="pill">Link</a>` 
+                            : '';
+                        const pdfPill = pub.pdf 
+                            ? `<a href="${pub.pdf}" target="_blank" rel="noopener" class="pill">PDF</a>` 
+                            : '';
+                        const codePill = pub.code 
+                            ? `<a href="${pub.code}" target="_blank" rel="noopener" class="pill">Code</a>` 
+                            : '';
+                        const citationsPill = pub.citations 
+                            ? `<span class="pill citations-pill">Cited by ${pub.citations}</span>` 
+                            : '';
+
+                        html += `
+                            <li class="pub-item">
+                                <div class="pub-content">
+                                    <h4 class="pub-title">${titleHtml}</h4>
+                                    <p class="pub-authors">${formattedAuthors}</p>
+                                    ${venue ? `<p class="pub-venue">${venue}</p>` : ''}
+                                </div>
+                                <div class="pub-links">
+                                    ${linkPill}
+                                    ${pdfPill}
+                                    ${codePill}
+                                    ${citationsPill}
+                                </div>
+                            </li>
+                        `;
+                    });
+
+                    html += `
+                            </ul>
+                        </div>
+                    `;
+                });
+
+                container.innerHTML = html;
+                countDisplay.textContent = `Showing ${pubs.length} of ${allPublications.length} publication${allPublications.length === 1 ? '' : 's'}`;
+            }
+
+            // Fetch publications
+            fetch('publications.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Handle both top-level array or wrapping object
+                    allPublications = Array.isArray(data) ? data : (data.results || data.records || data.publications || []);
+                    renderPublications(allPublications);
+                })
+                .catch(error => {
+                    console.error('Error fetching publications:', error);
+                    container.innerHTML = `
+                        <div class="pub-error">
+                            <p>Unable to load publications. Please try again later.</p>
+                            <p class="error-details">${error.message}</p>
+                        </div>
+                    `;
+                    countDisplay.textContent = 'Error loading publications';
+                });
+
+            // Search filtering
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+                if (!query) {
+                    renderPublications(allPublications);
+                    return;
+                }
+
+                const filtered = allPublications.filter(pub => {
+                    const titleMatch = (pub.title || '').toLowerCase().includes(query);
+                    const journalMatch = (pub.journal || pub.venue || '').toLowerCase().includes(query);
+                    
+                    const authorsArr = Array.isArray(pub.authors) ? pub.authors : [pub.authors];
+                    const authorsMatch = authorsArr.some(author => (author || '').toLowerCase().includes(query));
+
+                    return titleMatch || journalMatch || authorsMatch;
+                });
+
+                renderPublications(filtered);
+            });
         });
     </script>
 </body>

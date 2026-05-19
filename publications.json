@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Efficient Distributed Training via Asynchronous Optimization",
+    "authors": [
+      "Doe, J.",
+      "Smith, J.",
+      "Chen, B."
+    ],
+    "date": [
+      2023,
+      11
+    ],
+    "journal": "Conference on Neural Information Processing Systems (NeurIPS)",
+    "link": "https://scholar.google.com",
+    "volume": "36",
+    "pages": "1024-1035",
+    "citations": 42
+  },
+  {
+    "title": "Genomic Sequence Alignment at Scale",
+    "authors": [
+      "Johnson, A.",
+      "Doe, J."
+    ],
+    "date": [
+      2022,
+      5
+    ],
+    "journal": "Bioinformatics Journal",
+    "link": "https://scholar.google.com",
+    "volume": "38",
+    "pages": "512-520",
+    "citations": 18
+  },
+  {
+    "title": "A Survey of Fault-Tolerant Consensus Protocols",
+    "authors": [
+      "Williams, S.",
+      "Doe, J."
+    ],
+    "date": [
+      2021,
+      9
+    ],
+    "journal": "ACM Computing Surveys",
+    "link": "https://scholar.google.com",
+    "volume": "54",
+    "pages": "1-35",
+    "citations": 95
+  }
+]

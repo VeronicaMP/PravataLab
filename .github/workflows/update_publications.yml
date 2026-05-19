@@ -1,0 +1,32 @@
+name: Update Publications
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Every Sunday at midnight UTC
+  workflow_dispatch: # Allows manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Google Scholar publications
+        uses: sxlllslgh/google-scholar-fetcher@v1
+        with:
+          # Swaps in the variable from Settings > Secrets and variables > Actions
+          # If not set, falls back to your actual Google Scholar ID.
+          google-scholar-id: ${{ secrets.GOOGLE_SCHOLAR_ID || vars.GOOGLE_SCHOLAR_ID || '_-1UOnoAAAAJ' }}
+          record-file: 'publications.json'
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add publications.json
+          git commit -m "chore: auto-update publications from Google Scholar" || echo "No changes to commit"
+          git push
