@@ -10,7 +10,7 @@ Post-Translational Modifications">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -28,10 +28,11 @@ Post-Translational Modifications">
             </button>
             <nav class="nav-links" id="nav-links">
                 <a href="#home">Home</a>
-                <a href="#values">Lab Values</a>
                 <a href="#research">Research</a>
+                <a href="#values">Lab Values</a>
                 <a href="#people">People</a>
                 <a href="#publications">Publications</a>
+                <a href="#news">News</a>
                 <a href="#join">Join Us</a>
             </nav>
         </div>
@@ -39,25 +40,47 @@ Post-Translational Modifications">
 
     <main>
         <section id="home" class="hero">
-            <div class="container hero-content">
-                <div class="hero-text">
-                    <h1>Uncovering the molecular logic of neurodevelopment through Post-Translational Modifications</h1>
-                    <p class="mission">At the Pravata Lab, we view human brain development through the lens of
-                        post-translational logic. While genetics provide the basic blueprint of the brain, we
-                        investigate how protein modifications actually dictate its final architecture. Our group uses
-                        advanced iPSC-derived brain organoids to map the neural glycoproteome as it develops in
-                        real-time. By combining quantitative mass spectrometry with precision CRISPR Prime Editing, we
-                        are decoding how the "glyco-code" wires the developing human cortex, creating new paradigms for
-                        understanding complex neurobiology.</p>
-                </div>
-                <div class="hero-visual">
-                    <img src="assets/Untitled_Artwork (1).png" alt="Pravata Lab Research Artwork"
-                        style="border-radius: var(--radius-lg); width: 100%; box-shadow: var(--shadow-md);">
+            <div class="container">
+                <h1 class="hero-title">Uncovering the molecular logic of neurodevelopment through Post-Translational Modifications</h1>
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="mission">At the Pravata Lab, we view human brain development through the lens of
+                            post-translational logic. While genetics provide the basic blueprint of the brain, we
+                            investigate how protein modifications actually dictate its final architecture. Our group uses
+                            advanced iPSC-derived brain organoids to map the neural glycoproteome as it develops in
+                            real-time. By combining quantitative mass spectrometry with precision CRISPR Prime Editing, we
+                            are decoding how the "glyco-code" wires the developing human cortex, creating new paradigms for
+                            understanding complex neurobiology.</p>
+                    </div>
+                    <div class="hero-visual">
+                        <img src="assets/Untitled_Artwork (1).png" alt="Pravata Lab Research Artwork"
+                            style="border-radius: var(--radius-lg); width: 100%; box-shadow: var(--shadow-md);">
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="values" class="section-alt">
+        <section id="research" class="section-alt">
+            <div class="container">
+                <h2>Research Areas</h2>
+                <div class="grid-3">
+                    <article class="card">
+                        <h3>iPSC-Derived Brain Organoids</h3>
+                        <p>We develop highly reproducible human brain organoid models to study physiological cortical development and model neurodevelopmental pathologies in real-time.</p>
+                    </article>
+                    <article class="card">
+                        <h3>O-GlcNAcylation & The Glyco-Code</h3>
+                        <p>We investigate how post-translational modifications, specifically O-GlcNAc transferase (OGT) variants, govern stem cell self-renewal and dictate neuronal lineage decisions.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Molecular Logic of Brain Wiring</h3>
+                        <p>Using quantitative mass spectrometry proteomics and precision CRISPR genome editing, we decipher the chemical codes that instruct cortical architectures and synapse formation.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="values" class="section">
             <div class="container">
                 <h2>Lab Values</h2>
                 <div class="grid-4">
@@ -87,29 +110,6 @@ Post-Translational Modifications">
             </div>
         </section>
 
-        <section id="research" class="section">
-            <div class="container">
-                <h2>Research Areas</h2>
-                <div class="grid-3">
-                    <article class="card">
-                        <h3>Machine Learning Systems</h3>
-                        <p>Developing novel optimization frameworks for training large-scale models across heterogeneous
-                            computing clusters with minimal communication overhead.</p>
-                    </article>
-                    <article class="card">
-                        <h3>Bioinformatics</h3>
-                        <p>Creating efficient algorithms for genomics and proteomics data analysis, enabling faster
-                            insights in structural biology.</p>
-                    </article>
-                    <article class="card">
-                        <h3>Distributed Consensus</h3>
-                        <p>Investigating fault-tolerant protocols for decentralized networks, aiming to improve
-                            throughput without sacrificing security.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
         <section id="people" class="section-alt">
             <div class="container">
                 <h2>People</h2>
@@ -120,11 +120,9 @@ Post-Translational Modifications">
                             <span>PI Image</span>
                         </div>
                         <div class="pi-info">
-                            <h3>Dr. Jane Doe</h3>
-                            <p class="role">Principal Investigator & Associate Professor</p>
-                            <p class="bio">Dr. Doe leads the Nexus Lab. She received her Ph.D. from Tech University and
-                                focuses on systems architecture, bringing interdisciplinary approaches to complex
-                                computational problems.</p>
+                            <h3>Dr. Veronica Pravata</h3>
+                            <p class="role">Principal Investigator & Assistant Professor</p>
+                            <p class="bio">Dr. Pravata leads the Pravata Lab. Her research explores how post-translational modifications, particularly O-GlcNAcylation and glycosylation, act as molecular instruction codes in human brain development. Combining human iPSC-derived brain organoids, quantitative mass spectrometry, and CRISPR technologies, she investigates the mechanisms underlying intellectual disabilities and cortical wiring.</p>
                             <div class="social-links">
                                 <a href="#">Google Scholar</a>
                                 <a href="#">GitHub</a>
@@ -205,19 +203,52 @@ Post-Translational Modifications">
                 </div>
             </div>
         </section>
+        <section id="news" class="section-alt">
+            <div class="container">
+                <h2>News</h2>
+                <div class="news-list">
+                    <article class="news-item">
+                        <span class="news-date">January 2026</span>
+                        <div class="news-content">
+                            <h3>Paper published in Nature</h3>
+                            <p>Our collaborative study on how species-specific cortical features are driven by developmental gene expression patterns is now published in <strong>Nature</strong>. Read the paper <a href="https://doi.org/10.1038/s41586-026-10491-x" target="_blank" rel="noopener">here</a>.</p>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-date">January 2026</span>
+                        <div class="news-content">
+                            <h3>Microglia Phenotypes Preprint</h3>
+                            <p>Our preprint on developing a reproducible human brain tissue model to study physiological and disease-associated microglia phenotypes is online on bioRxiv. Read it <a href="https://doi.org/10.64898/2026.01.20.699077" target="_blank" rel="noopener">here</a>.</p>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-date">January 2025</span>
+                        <div class="news-content">
+                            <h3>Paper published in Molecular & Cellular Proteomics</h3>
+                            <p>Our paper describing Zscan4 as a candidate conveyor of early developmental defects in OGT intellectual disability has been published in <strong>Molecular & Cellular Proteomics</strong>. Read the paper <a href="https://doi.org/10.1016/j.mcpro.2025.101077" target="_blank" rel="noopener">here</a>.</p>
+                        </div>
+                    </article>
+                    <article class="news-item">
+                        <span class="news-date">September 2024</span>
+                        <div class="news-content">
+                            <h3>Pravata Lab Launches</h3>
+                            <p>The Pravata Lab is officially open! We are excited to begin our journey to decode the post-translational glyco-code wiring the human cortex. We are actively looking for talented students and postdocs to join our team.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-        <section id="join" class="section-alt">
+        <section id="join" class="section">
             <div class="container">
                 <div class="contact-box">
                     <h2>Join Us</h2>
-                    <p>We are always looking for motivated Ph.D. students and postdocs. If you are passionate about
-                        building systems and exploring the frontiers of AI, we'd love to hear from you.</p>
+                    <p>We are always looking for motivated Ph.D. students and postdocs. If you are passionate about neurodevelopment, post-translational modifications, and utilizing brain organoids to decode complex biology, we'd love to hear from you.</p>
                     <p>Please send an email with your CV and a brief statement of your research interests.</p>
 
                     <div class="contact-info">
-                        <p><strong>Email:</strong> <a href="mailto:contact@nexuslab.edu">contact@nexuslab.edu</a></p>
-                        <p><strong>Location:</strong> Room 404, Computer Science Building<br>University Name, City,
-                            State, ZIP</p>
+                        <p><strong>Email:</strong> <a href="mailto:contact@pravatalab.org">contact@pravatalab.org</a></p>
+                        <p><strong>Location:</strong> Room 404, Developmental Neurobiology Building<br>University Name, City, State, ZIP</p>
                     </div>
                 </div>
             </div>
@@ -226,7 +257,7 @@ Post-Translational Modifications">
 
     <footer>
         <div class="container footer-content">
-            <p>&copy; 2024 Nexus Research Lab. All rights reserved.</p>
+            <p>&copy; 2026 Pravata Lab. All rights reserved.</p>
             <p class="footer-note">Powered by GitHub Pages</p>
         </div>
     </footer>

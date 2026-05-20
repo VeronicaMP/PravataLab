@@ -1,16 +1,17 @@
 :root {
-    /* Color Palette */
-    --c-primary: #0f172a; /* Slate 900 - Deep navy/slate for primary elements */
-    --c-secondary: #334155; /* Slate 700 - Crispt dark gray text */
-    --c-accent: #0284c7; /* Sky 600 - Muted teal/blue for links/highlights */
-    --c-accent-hover: #0369a1; /* Sky 700 */
-    --c-bg: #ffffff; /* White background */
-    --c-bg-alt: #f8fafc; /* Slate 50 - Light gray for section separation */
-    --c-border: #e2e8f0; /* Slate 200 */
-    --c-text-muted: #64748b; /* Slate 500 */
+    /* Color Palette - Sophisticated Cream & Gold */
+    --c-primary: #2D2520; /* Deep charcoal/warm dark brown for headings */
+    --c-secondary: #554C46; /* Warm grey-brown for body text */
+    --c-accent: #B38E5D; /* Sophisticated warm bronze/gold for buttons and highlights */
+    --c-accent-hover: #8E6D43; /* Deeper bronze/gold for interaction states */
+    --c-bg: #FCFAF6; /* Ivory cream background */
+    --c-bg-alt: #F5F1E6; /* Soft sand/beige for alternate section containers */
+    --c-border: #E6DFD3; /* Muted warm border color */
+    --c-text-muted: #8E837A; /* Muted warm taupe for labels and secondary text */
     
     /* Typography */
-    --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: 'Lora', Georgia, Cambria, serif;
     
     /* Spacing & Layout */
     --max-width: 1100px;
@@ -22,10 +23,10 @@
     /* Effects & Borders */
     --radius: 8px;
     --radius-lg: 12px;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --transition: all 0.2s ease;
+    --shadow-sm: 0 1px 3px 0 rgba(45, 37, 32, 0.05);
+    --shadow-md: 0 4px 12px -2px rgba(45, 37, 32, 0.08), 0 2px 6px -1px rgba(45, 37, 32, 0.04);
+    --shadow-hover: 0 16px 24px -4px rgba(45, 37, 32, 0.12), 0 8px 12px -2px rgba(45, 37, 32, 0.06);
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Reset & Base Styles */
@@ -49,8 +50,9 @@ body {
 }
 
 h1, h2, h3, h4 {
+    font-family: var(--font-serif);
     color: var(--c-primary);
-    line-height: 1.2;
+    line-height: 1.25;
     margin-bottom: var(--spacing-sm);
     font-weight: 600;
 }
@@ -96,7 +98,7 @@ img {
 .navbar {
     position: sticky;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(252, 250, 246, 0.95);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--c-border);
     z-index: 1000;
@@ -143,26 +145,36 @@ img {
 
 /* Hero Section */
 .hero {
-    padding: 6rem 0;
+    padding: 6rem 0 4rem 0;
+}
+
+.hero-title {
+    font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--c-primary);
+    margin-bottom: var(--spacing-md);
+    max-width: 100%;
+    letter-spacing: -0.02em;
 }
 
 .hero-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: var(--spacing-md);
     flex-wrap: wrap;
 }
 
 .hero-text {
-    flex: 1;
+    flex: 1.2;
     min-width: 300px;
 }
 
 .mission {
-    font-size: 1.25rem;
-    color: var(--c-text-muted);
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: var(--c-secondary);
     margin-bottom: var(--spacing-md);
-    max-width: 600px;
 }
 
 .hero-visual {
@@ -198,7 +210,7 @@ img {
 }
 
 .card {
-    background: var(--c-bg);
+    background: #ffffff;
     border: 1px solid var(--c-border);
     border-radius: var(--radius);
     padding: 1.5rem;
@@ -316,7 +328,7 @@ img {
     font-size: 0.95rem;
     border: 1px solid var(--c-border);
     border-radius: var(--radius);
-    background-color: var(--c-bg);
+    background-color: #ffffff;
     color: var(--c-primary);
     transition: var(--transition);
     outline: none;
@@ -325,7 +337,7 @@ img {
 
 #pub-search:focus {
     border-color: var(--c-accent);
-    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+    box-shadow: 0 0 0 3px rgba(179, 142, 93, 0.15);
 }
 
 #pub-search:focus + .search-icon {
@@ -442,7 +454,7 @@ img {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     color: var(--c-accent);
-    background-color: rgba(2, 132, 199, 0.08);
+    background-color: rgba(179, 142, 93, 0.08);
     border-radius: 9999px;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -455,13 +467,13 @@ img {
 }
 
 .citations-pill {
-    background-color: rgba(100, 116, 139, 0.08);
+    background-color: rgba(142, 131, 122, 0.08);
     color: var(--c-text-muted);
     cursor: default;
 }
 
 .citations-pill:hover {
-    background-color: rgba(100, 116, 139, 0.08);
+    background-color: rgba(142, 131, 122, 0.08);
     color: var(--c-text-muted);
 }
 
@@ -562,6 +574,80 @@ img {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--c-border);
+}
+
+/* News Section */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.news-item {
+    display: flex;
+    gap: 2rem;
+    background: var(--c-bg);
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+}
+
+.news-item:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.news-date {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-accent);
+    min-width: 120px;
+    flex-shrink: 0;
+    padding-top: 0.25rem;
+}
+
+.news-content {
+    flex: 1;
+}
+
+.news-content h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.5rem;
+    color: var(--c-primary);
+}
+
+.news-content p {
+    font-size: 0.95rem;
+    color: var(--c-secondary);
+    line-height: 1.6;
+}
+
+.news-content a {
+    color: var(--c-accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.news-content a:hover {
+    color: var(--c-accent-hover);
+}
+
+@media (max-width: 600px) {
+    .news-item {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1.25rem;
+    }
+    .news-date {
+        min-width: auto;
+    }
 }
 
 /* Footer */
