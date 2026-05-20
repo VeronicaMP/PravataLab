@@ -145,7 +145,18 @@ img {
 
 /* Hero Section */
 .hero {
-    padding: 6rem 0 4rem 0;
+    position: relative;
+    padding: 8rem 0;
+    overflow: hidden;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-inner {
+    position: relative;
+    z-index: 2;
+    pointer-events: auto;
 }
 
 .hero-title {
@@ -154,20 +165,12 @@ img {
     line-height: 1.15;
     color: var(--c-primary);
     margin-bottom: var(--spacing-md);
-    max-width: 100%;
+    max-width: 900px;
     letter-spacing: -0.02em;
 }
 
-.hero-content {
-    display: flex;
-    align-items: flex-start;
-    gap: var(--spacing-md);
-    flex-wrap: wrap;
-}
-
 .hero-text {
-    flex: 1.2;
-    min-width: 300px;
+    max-width: 750px;
 }
 
 .mission {
@@ -178,8 +181,22 @@ img {
 }
 
 .hero-visual {
-    flex: 1;
-    min-width: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hero-visual img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Covers entire area. Change to 'contain' if you want to avoid scaling/cropping */
+    object-position: center;
+    opacity: 0.35; /* Blends artwork into the cream background. Increase opacity if using a fully transparent background artwork */
+    transition: var(--transition);
 }
 
 .image-placeholder {
@@ -557,23 +574,141 @@ img {
     }
 }
 
-/* Join Us / Contact */
+/* Join Us / Contact & Open Positions */
 .contact-box {
-    background-color: var(--c-bg);
+    background-color: #ffffff;
     border: 1px solid var(--c-border);
     border-radius: var(--radius-lg);
     padding: var(--spacing-md);
     box-shadow: var(--shadow-md);
 }
 
-.contact-box p {
+.join-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 3rem;
+    margin-top: 1.5rem;
+    text-align: left;
+}
+
+.join-inquiries p {
     margin-bottom: 1rem;
+}
+
+.join-intro {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: var(--c-secondary);
 }
 
 .contact-info {
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--c-border);
+}
+
+.join-positions h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-family: var(--font-serif);
+    color: var(--c-primary);
+    border-bottom: 2px solid var(--c-accent);
+    padding-bottom: 0.25rem;
+    display: inline-block;
+}
+
+.position-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.position-card-item {
+    background-color: var(--c-bg-alt);
+    border: 1px solid var(--c-border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    transition: var(--transition);
+}
+
+.position-card-item:hover {
+    background-color: var(--c-bg);
+    border-color: var(--c-accent);
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+}
+
+.position-card-item h4 {
+    font-size: 1rem;
+    color: var(--c-primary);
+    margin-bottom: 0.5rem;
+    font-family: var(--font-sans);
+    font-weight: 600;
+}
+
+.position-card-item p {
+    font-size: 0.88rem;
+    color: var(--c-secondary);
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.position-status {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--c-accent);
+    background-color: rgba(179, 142, 93, 0.1);
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+}
+
+/* Funding & Support Banner */
+.funding-container {
+    text-align: center;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.funding-heading {
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--c-text-muted);
+    margin-bottom: 2rem;
+    font-family: var(--font-sans);
+}
+
+.funding-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.funding-logo {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--c-text-muted);
+    opacity: 0.8;
+    transition: var(--transition);
+    border: 1px solid var(--c-border);
+    padding: 0.6rem 1.25rem;
+    border-radius: var(--radius);
+    background-color: var(--c-bg); /* cream */
+}
+
+.funding-logo:hover {
+    opacity: 1;
+    color: var(--c-accent);
+    border-color: var(--c-accent);
+    background-color: #ffffff;
+    box-shadow: var(--shadow-sm);
 }
 
 /* News Section */
@@ -693,7 +828,8 @@ footer {
     }
 
     .hero {
-        padding: 3rem 0;
+        padding: 5rem 0;
+        min-height: auto;
     }
 
     .pi-card {
@@ -703,5 +839,10 @@ footer {
 
     .pub-item {
         flex-direction: column;
+    }
+
+    .join-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
     }
 }
