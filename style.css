@@ -733,7 +733,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2.5rem;
     flex-wrap: wrap;
 }
 
@@ -741,10 +741,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 35px;
-    padding: 0.25rem 0.5rem;
+    height: 90px;
+    padding: 1.25rem;
     border: 1px solid var(--c-border);
-    border-radius: var(--radius);
+    border-radius: var(--radius-lg);
     background-color: #ffffff; /* White background to cleanly blend logo backgrounds */
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
@@ -753,7 +753,7 @@ img {
 
 .funding-logo img {
     max-height: 100%;
-    max-width: 60px;
+    max-width: 160px;
     object-fit: contain;
 }
 
