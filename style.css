@@ -181,7 +181,7 @@ img {
 }
 
 .hero-content-card {
-    background-color: rgba(252, 250, 246, 0.6);
+    background-color: rgba(252, 250, 246, 0.9);
     /* Light transparent ivory cream tint to keep text readable */
     padding: 2.5rem;
     border-radius: var(--radius-lg);
