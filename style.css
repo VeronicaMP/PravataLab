@@ -160,7 +160,7 @@ img {
 }
 
 .hero-content-card {
-    background-color: rgba(252, 250, 246, 0.55); /* Transparent ivory cream for a distinct glassmorphism effect */
+    background-color: rgba(252, 250, 246, 0.25); /* Highly transparent ivory cream for a strong glassmorphism effect */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     padding: 2.5rem;
@@ -849,7 +849,7 @@ footer {
 
     .hero-content-card {
         padding: 1.5rem;
-        background-color: rgba(252, 250, 246, 0.70); /* Semi-transparent on mobile for readability */
+        background-color: rgba(252, 250, 246, 0.45); /* More transparent on mobile for better aesthetics */
     }
 
     .pi-card {
