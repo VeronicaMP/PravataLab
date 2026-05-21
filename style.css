@@ -160,12 +160,12 @@ img {
 }
 
 .hero-content-card {
-    background-color: rgba(252, 250, 246, 0.82); /* Semi-transparent ivory cream */
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(252, 250, 246, 0.92); /* Increased opacity for better text contrast */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
     padding: 2.5rem;
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(230, 223, 211, 0.5); /* Soft beige border */
+    border: 1px solid rgba(230, 223, 211, 0.6); /* Slightly more defined border */
     box-shadow: var(--shadow-md);
     max-width: 950px;
 }
@@ -210,7 +210,7 @@ img {
     height: 100%;
     object-fit: cover; /* Covers entire area. Change to 'contain' if you want to avoid scaling/cropping */
     object-position: center;
-    opacity: 0.55; /* Slightly higher opacity since the transparent background artwork sits behind a frosted glass card */
+    opacity: 0.35; /* Lowered opacity so the background image is less busy and text has higher contrast */
     transition: var(--transition);
 }
 
@@ -849,7 +849,7 @@ footer {
 
     .hero-content-card {
         padding: 1.5rem;
-        background-color: rgba(252, 250, 246, 0.88); /* More opaque on mobile for better text contrast */
+        background-color: rgba(252, 250, 246, 0.95); /* Even more opaque on mobile for better text contrast */
     }
 
     .pi-card {
