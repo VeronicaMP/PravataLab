@@ -733,30 +733,35 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
     flex-wrap: wrap;
 }
 
 .funding-logo {
-    font-family: var(--font-serif);
-    font-size: 1.05rem;
-    font-weight: 600;
-    color: var(--c-text-muted);
-    opacity: 0.8;
-    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 1.25rem;
     border: 1px solid var(--c-border);
-    padding: 0.6rem 1.25rem;
-    border-radius: var(--radius);
-    background-color: var(--c-bg);
-    /* cream */
+    border-radius: var(--radius-lg);
+    background-color: #ffffff; /* White background to cleanly blend logo backgrounds */
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    opacity: 0.85;
+}
+
+.funding-logo img {
+    max-height: 100%;
+    max-width: 180px;
+    object-fit: contain;
 }
 
 .funding-logo:hover {
     opacity: 1;
-    color: var(--c-accent);
     border-color: var(--c-accent);
-    background-color: #ffffff;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-hover);
+    transform: translateY(-3px);
 }
 
 /* News Section */
