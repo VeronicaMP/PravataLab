@@ -188,7 +188,7 @@ img {
     border: 1px solid rgba(230, 223, 211, 0.6);
     /* Soft border to define the card shape */
     box-shadow: var(--shadow-md);
-    max-width: 950px;
+    max-width: 100%; /* Spans the full width of the container */
 }
 
 .hero-content-card .mission {
@@ -201,12 +201,12 @@ img {
     line-height: 1.15;
     color: var(--c-primary);
     margin-bottom: var(--spacing-md);
-    max-width: 900px;
+    max-width: 100%; /* Let the header text occupy more horizontal space */
     letter-spacing: -0.02em;
 }
 
 .hero-text {
-    max-width: 750px;
+    max-width: 100%; /* Let the subheader/mission text occupy more horizontal space */
 }
 
 .mission {
