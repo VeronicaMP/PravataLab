@@ -57,6 +57,12 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+strong,
+b {
+    font-weight: 700;
+    color: var(--c-primary);
+}
+
 h1,
 h2,
 h3,
