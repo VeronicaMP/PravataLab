@@ -227,14 +227,15 @@ img {
 }
 
 .hero-visual img {
+    position: absolute;
+    top: -10%;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     object-fit: cover;
-    /* Covers entire area. Change to 'contain' if you want to avoid scaling/cropping */
     object-position: center;
     opacity: 0.35;
-    /* Lowered opacity so the background image is less busy and text has higher contrast */
-    transition: var(--transition);
+    will-change: transform;
 }
 
 .image-placeholder {
