@@ -741,10 +741,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    padding: 1.25rem;
+    height: 55px;
+    padding: 0.5rem 1rem;
     border: 1px solid var(--c-border);
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius);
     background-color: #ffffff; /* White background to cleanly blend logo backgrounds */
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
@@ -753,7 +753,7 @@ img {
 
 .funding-logo img {
     max-height: 100%;
-    max-width: 180px;
+    max-width: 110px;
     object-fit: contain;
 }
 
