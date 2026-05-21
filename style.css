@@ -160,7 +160,7 @@ img {
 }
 
 .hero-content-card {
-    background-color: rgba(252, 250, 246, 0.92); /* Increased opacity for better text contrast */
+    background-color: rgba(252, 250, 246, 0.86); /* Semi-transparent ivory cream for glassmorphism */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     padding: 2.5rem;
@@ -849,7 +849,7 @@ footer {
 
     .hero-content-card {
         padding: 1.5rem;
-        background-color: rgba(252, 250, 246, 0.95); /* Even more opaque on mobile for better text contrast */
+        background-color: rgba(252, 250, 246, 0.90); /* Highly opaque on mobile for readability */
     }
 
     .pi-card {
