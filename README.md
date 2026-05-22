@@ -1,6 +1,6 @@
 # PravataLab
 
-This repository contains the Nexus Research Lab website.
+This repository contains the Pravata Lab website.
 
 ## Local Development
 
