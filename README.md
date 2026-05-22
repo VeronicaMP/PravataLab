@@ -1,4 +1,4 @@
-# PravataLab (Nexus Research Lab)
+# PravataLab
 
 This repository contains the Nexus Research Lab website.
 
