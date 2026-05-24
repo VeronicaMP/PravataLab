@@ -178,7 +178,7 @@
     ],
     "journal": "bioRxiv",
     "link": "https://doi.org/10.1038/s41467-025-56998-1",
-    "citations": 5
+    "citations": 6
   },
   {
     "title": "An O-GlcNAc transferase pathogenic variant linked to intellectual disability affects pluripotent stem cell self-renewal",
@@ -259,40 +259,6 @@
     "journal": "Nature Communications",
     "link": "https://doi.org/10.1038/s41467-022-32904-x",
     "citations": 18
-  },
-  {
-    "title": "O-GlcNAcylation enhances CPS1 catalytic efficiency for ammonia and promotes ureagenesis",
-    "authors": [
-      "L. Soria",
-      "Georgios Makris",
-      "A. D’Alessio",
-      "A. Angelis",
-      "I. Boffa",
-      "V. Pravata",
-      "V. Rüfenacht",
-      "S. Attanasio",
-      "E. Nusco",
-      "Paola Arena",
-      "A. Ferenbach",
-      "D. Paris",
-      "P. Cuomo",
-      "A. Motta",
-      "Matthew Nitzahn",
-      "G. Lipshutz",
-      "A. Martínez-Pizarro",
-      "E. Richard",
-      "L. Desviat",
-      "J. Häberle",
-      "D. Aalten",
-      "N. Brunetti‐Pierri"
-    ],
-    "date": [
-      2022,
-      1
-    ],
-    "journal": "",
-    "link": "https://doi.org/10.1038/s41467-022-32904-x",
-    "citations": 0
   },
   {
     "title": "The citron homology domain as a scaffold for Rho1 signaling",
@@ -409,10 +375,10 @@
     ],
     "journal": "European Journal of Human Genetics",
     "link": "https://doi.org/10.1038/s41431-020-0589-9",
-    "citations": 5
+    "citations": 8
   },
   {
-    "title": "A missense mutation in the catalytic domain of O‐GlcNAc transferase links perturbations in protein O‐GlcNAcylation to X‐linked intellectual disability",
+    "title": "A missense mutation in the catalytic domain of O-GlcNAc transferase links perturbations in protein O-GlcNAcylation to X-linked intellectual disability",
     "authors": [
       "V. Pravata",
       "M. Gundogdu",
@@ -431,7 +397,7 @@
     ],
     "journal": "FEBS Letters",
     "link": "https://doi.org/10.1002/1873-3468.13640",
-    "citations": 48
+    "citations": 47
   },
   {
     "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
