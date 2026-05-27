@@ -826,7 +826,7 @@ img {
 }
 
 .location-logo img {
-    max-height: 15px;
+    max-height: 10px;
     width: auto;
     object-fit: contain;
     opacity: 0.85;
