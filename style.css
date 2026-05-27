@@ -821,6 +821,22 @@ img {
     border-top: 1px solid var(--c-border);
 }
 
+.location-logo {
+    margin-top: 1rem;
+}
+
+.location-logo img {
+    max-height: 45px;
+    width: auto;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: var(--transition);
+}
+
+.location-logo img:hover {
+    opacity: 1;
+}
+
 .join-inquiries h2,
 .join-positions h2 {
     font-size: 1.5rem;
