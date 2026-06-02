@@ -845,7 +845,7 @@ img {
 }
 
 .location-logo img {
-    max-height: 10px;
+    max-height: 60px;
     width: auto;
     object-fit: contain;
     opacity: 0.85;
@@ -945,7 +945,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 90px;
+    height: 110px;
     padding: 1.25rem;
     border: 1px solid var(--c-border);
     border-radius: var(--radius-lg);
@@ -957,7 +957,7 @@ img {
 
 .funding-logo img {
     max-height: 100%;
-    max-width: 160px;
+    max-width: 195px;
     object-fit: contain;
 }
 
