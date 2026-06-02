@@ -525,6 +525,25 @@ img {
     margin: 0 auto 1rem;
 }
 
+.person-card.join-card {
+    border: 1px dashed var(--c-accent);
+    background-color: rgba(179, 142, 93, 0.03);
+}
+
+.person-card.join-card:hover {
+    border-style: solid;
+    background-color: rgba(179, 142, 93, 0.08);
+}
+
+.person-card.join-card .avatar-placeholder {
+    background-color: rgba(179, 142, 93, 0.1);
+    color: var(--c-accent);
+    border: 1px dashed var(--c-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Publications */
 .publications-controls {
     display: flex;
