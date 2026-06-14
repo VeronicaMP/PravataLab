@@ -1,6 +1,37 @@
 [
   {
-    "title": "Developmental gene expression patterns driving species-specific cortical features",
+    "title": "Nuclear proteome reveals microtubule-associated protein regulating fate and disease.",
+    "authors": [
+      "Florencia Merino",
+      "Lucas Miranda",
+      "Aparajita Kumar",
+      "Yiling Li",
+      "Deepak Kumar Sundaramoorthy",
+      "J. Merl-Pham",
+      "Eva-Maria Schentarra",
+      "Clemens Steinek",
+      "V. Pravata",
+      "Claire M. Kittock",
+      "Martina Bürkle",
+      "B. Hersbach",
+      "Javier Ferri Beneito",
+      "F. Giesert",
+      "Ralf Jungmann",
+      "L. Pilaz",
+      "Stefanie M. Hauck",
+      "Silvia Cappello",
+      "M. Götz"
+    ],
+    "date": [
+      2026,
+      1
+    ],
+    "journal": "Cell",
+    "link": "https://doi.org/10.1016/j.cell.2026.05.019",
+    "citations": 0
+  },
+  {
+    "title": "Developmental gene expression patterns driving species-specific cortical features.",
     "authors": [
       "Awais Javed",
       "Lucía Gómez",
@@ -258,7 +289,7 @@
     ],
     "journal": "Nature Communications",
     "link": "https://doi.org/10.1038/s41467-022-32904-x",
-    "citations": 18
+    "citations": 19
   },
   {
     "title": "The citron homology domain as a scaffold for Rho1 signaling",
@@ -325,7 +356,7 @@
     ],
     "journal": "European Journal of Human Genetics",
     "link": "https://doi.org/10.1038/s41431-020-0589-9",
-    "citations": 60
+    "citations": 61
   },
   {
     "title": "University of Dundee An intellectual disability syndrome with single nucleotide variants in O-GlcNAc Transferase Pravata,",
@@ -397,7 +428,7 @@
     ],
     "journal": "FEBS Letters",
     "link": "https://doi.org/10.1002/1873-3468.13640",
-    "citations": 47
+    "citations": 48
   },
   {
     "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
@@ -463,7 +494,7 @@
     ],
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
     "link": "https://doi.org/10.1073/pnas.1900065116",
-    "citations": 70
+    "citations": 71
   },
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
