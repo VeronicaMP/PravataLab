@@ -970,6 +970,23 @@ img {
     letter-spacing: 0.02em;
 }
 
+.status-live {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: var(--c-accent);
+    padding: 0.25rem 0.6rem;
+    border-radius: 4px;
+    letter-spacing: 0.02em;
+    transition: var(--transition);
+}
+
+.status-live:hover {
+    background-color: var(--c-accent-hover);
+    color: #ffffff;
+}
+
 /* Funding & Support Banner */
 .funding-container {
     text-align: center;
