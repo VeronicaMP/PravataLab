@@ -1,5 +1,45 @@
 [
   {
+    "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
+    "authors": [
+      "Julien Klimmt",
+      "Carolina Cardoso Gonçalves",
+      "Jessica Valentina Montgomery",
+      "Stephan A. Müller",
+      "Merle Bublitz",
+      "Severin Filser",
+      "Lars Paeger",
+      "Brigitte Nuscher",
+      "Angelika Dannert",
+      "Sigrun Roeber",
+      "Veronica Pravata",
+      "Martina Schifferer",
+      "Joshua J. Shrouder",
+      "Nathalie Schulz",
+      "Judit González-Gallego",
+      "Silvia Cappello",
+      "Thomas Misgeld",
+      "Nikolaus Plesnila",
+      "Eduardo Beltrán",
+      "Jochen Herms",
+      "Elena De Domenico",
+      "Marc D. Beyer",
+      "Joachim L. Schultze",
+      "Christian Haass",
+      "Stefan F. Lichtenthaler",
+      "Caterina Carraro",
+      "Dominik Paquet"
+    ],
+    "date": [
+      2026,
+      8,
+      4
+    ],
+    "journal": "Nature Neuroscience",
+    "link": "https://www.nature.com/articles/s41593-026-02367-0",
+    "citations": 0
+  },
+  {
     "title": "Nuclear proteome reveals microtubule-associated protein regulating fate and disease.",
     "authors": [
       "Florencia Merino",
