@@ -1,43 +1,42 @@
 [
   {
-    "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
+    "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes.",
     "authors": [
       "Julien Klimmt",
       "Carolina Cardoso Gonçalves",
-      "Jessica Valentina Montgomery",
+      "J. V. Montgomery",
       "Stephan A. Müller",
       "Merle Bublitz",
-      "Severin Filser",
-      "Lars Paeger",
-      "Brigitte Nuscher",
+      "S. Filser",
+      "L. Paeger",
+      "B. Nuscher",
       "Angelika Dannert",
       "Sigrun Roeber",
-      "Veronica Pravata",
+      "V. Pravata",
       "Martina Schifferer",
-      "Joshua J. Shrouder",
+      "J. Shrouder",
       "Nathalie Schulz",
       "Judit González-Gallego",
       "Silvia Cappello",
       "Thomas Misgeld",
       "Nikolaus Plesnila",
-      "Eduardo Beltrán",
+      "E. Beltrán",
       "Jochen Herms",
-      "Elena De Domenico",
+      "E. De Domenico",
       "Marc D. Beyer",
-      "Joachim L. Schultze",
+      "J. Schultze",
       "Christian Haass",
       "Stefan F. Lichtenthaler",
-      "Caterina Carraro",
+      "C. Carraro",
       "Dominik Paquet"
     ],
     "date": [
       2026,
-      8,
-      4
+      1
     ],
     "journal": "Nature Neuroscience",
-    "link": "https://www.nature.com/articles/s41593-026-02367-0",
-    "citations": 0
+    "link": "https://doi.org/10.1038/s41593-026-02367-0",
+    "citations": 1
   },
   {
     "title": "Nuclear proteome reveals microtubule-associated protein regulating fate and disease.",
@@ -468,7 +467,7 @@
     ],
     "journal": "FEBS Letters",
     "link": "https://doi.org/10.1002/1873-3468.13640",
-    "citations": 48
+    "citations": 49
   },
   {
     "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
@@ -534,7 +533,7 @@
     ],
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
     "link": "https://doi.org/10.1073/pnas.1900065116",
-    "citations": 71
+    "citations": 72
   },
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
