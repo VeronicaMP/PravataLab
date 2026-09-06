@@ -1,6 +1,6 @@
 [
   {
-    "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes.",
+    "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
     "authors": [
       "Julien Klimmt",
       "Carolina Cardoso Gonçalves",
@@ -26,7 +26,7 @@
       "Marc D. Beyer",
       "J. Schultze",
       "Christian Haass",
-      "Stefan F. Lichtenthaler",
+      "S. Lichtenthaler",
       "C. Carraro",
       "Dominik Paquet"
     ],
@@ -120,7 +120,7 @@
       "M. Beyer",
       "J. Schultze",
       "Christian Haass",
-      "Stefan F. Lichtenthaler",
+      "S. Lichtenthaler",
       "C. Carraro",
       "Dominik Paquet"
     ],
@@ -184,7 +184,7 @@
       "Hao Jiang",
       "A. Ferenbach",
       "A. Lamond",
-      "D. M. V. van Aalten"
+      "D. vanAalten"
     ],
     "date": [
       2025,
@@ -201,7 +201,7 @@
       "V. Pravata",
       "Fabrizia Pipicelli",
       "Alessandro Soloperto",
-      "Francesco Di Matteo",
+      "Francesco di Matteo",
       "Zagorka Bekjarova",
       "Elisa Frenna",
       "L. Canafoglia",
@@ -225,20 +225,20 @@
   {
     "title": "Neuronal hyperactivity in neurons derived from individuals with gray matter heterotopia",
     "authors": [
-      "Francesco Di Matteo",
+      "Francesco di Matteo",
       "Rebecca Bonrath",
-      "H. Schmidt",
-      "A. C. Ayo Martin",
       "V. Pravata",
+      "H. Schmidt",
+      "Ane Cristina Ayo Martin",
       "R. Di Giaimo",
       "Danusa Menegaz",
       "S. Riesenberg",
-      "Femke M. S. de Vrij",
+      "F. D. de Vrij",
       "G. Maccarrone",
       "Maria Holzapfel",
       "Tobias Straub",
-      "S.A. Kushner",
-      "Stephen P. Robertson",
+      "S. A. Kushner",
+      "S. P. Robertson",
       "Matthias Eder",
       "Silvia Cappello"
     ],
@@ -248,7 +248,7 @@
     ],
     "journal": "bioRxiv",
     "link": "https://doi.org/10.1038/s41467-025-56998-1",
-    "citations": 9
+    "citations": 10
   },
   {
     "title": "An O-GlcNAc transferase pathogenic variant linked to intellectual disability affects pluripotent stem cell self-renewal",
@@ -286,7 +286,7 @@
       "A. Bayat",
       "A. Ferenbach",
       "Marios P. Stavridis",
-      "D. V. van Aalten"
+      "D. vanAalten"
     ],
     "date": [
       2023,
@@ -305,7 +305,7 @@
       "Angela De Angelis",
       "I. Boffa",
       "V. Pravata",
-      "V. Rüfenacht",
+      "Véronique Rüfenacht",
       "S. Attanasio",
       "E. Nusco",
       "Paola Arena",
@@ -317,9 +317,9 @@
       "G. Lipshutz",
       "A. Martínez-Pizarro",
       "E. Richard",
-      "L. Desviat",
-      "J. Häberle",
-      "D. V. van Aalten",
+      "L. R. Desviat",
+      "Johannes Häberle",
+      "Daan M. F. van Aalten",
       "N. Brunetti‐Pierri"
     ],
     "date": [
@@ -334,11 +334,11 @@
     "title": "The citron homology domain as a scaffold for Rho1 signaling",
     "authors": [
       "S. G. Bartual",
-      "Wenfan Wei",
+      "Wen-Fan Wei",
       "Yao Zhou",
       "V. Pravata",
       "W. Fang",
-      "Kaizhou Yan",
+      "Kai-Zhou Yan",
       "A. Ferenbach",
       "D. Lockhart",
       "D. V. van Aalten"
@@ -360,9 +360,9 @@
       "S. Bonelli",
       "M. Calligaris",
       "Elisa Monaca",
-      "S. Müller",
+      "Stephan A. Müller",
       "S. Lichtenthaler",
-      "Simone D Scilabra"
+      "S. D. Scilabra"
     ],
     "date": [
       2021,
@@ -387,7 +387,7 @@
       "S. Joss",
       "C. Schwartz",
       "L. Wells",
-      "D. V. van Aalten"
+      "D. vanAalten"
     ],
     "date": [
       2020,
@@ -412,7 +412,7 @@
       "S. Joss",
       "C. Schwartz",
       "L. Wells",
-      "D. V. Aalten"
+      "Daan M. F. van Aalten"
     ],
     "date": [
       2020,
@@ -479,7 +479,7 @@
       "G. Murphy",
       "H. Nagase",
       "L. Troeberg",
-      "Simone D Scilabra"
+      "S. D. Scilabra"
     ],
     "date": [
       2019,
@@ -538,11 +538,11 @@
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
     "authors": [
-      "Simone D Scilabra",
+      "S. D. Scilabra",
       "Martina Pigoni",
       "V. Pravata",
       "Tobias Schätzl",
-      "S. Müller",
+      "Stephan A. Müller",
       "L. Troeberg",
       "S. Lichtenthaler"
     ],
