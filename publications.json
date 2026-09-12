@@ -1,5 +1,33 @@
 [
   {
+    "title": "Disrupted excitatory/inhibitory balance in EPM1 neural organoids driven by impaired EV dynamics and altered protein cargo",
+    "authors": [
+      "Andrea Forero",
+      "V. Pravata",
+      "Fabrizia Pipicelli",
+      "Alessandro Soloperto",
+      "Francesco Di Matteo",
+      "Zagorka Bekjarova",
+      "Elisa Frenna",
+      "L. Canafoglia",
+      "F. Ragona",
+      "G. Maccarrone",
+      "Mariano Gonzalez Pisfil",
+      "Christian Whal-Schott",
+      "Filippo M. Cernilogar",
+      "Matthias Eder",
+      "R. Di Giaimo",
+      "Silvia Cappello"
+    ],
+    "date": [
+      2026,
+      9
+    ],
+    "journal": "Science Advances",
+    "link": "https://www.science.org/doi/10.1126/sciadv.adu3955",
+    "citations": 0
+  },
+  {
     "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
     "authors": [
       "Julien Klimmt",
