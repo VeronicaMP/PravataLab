@@ -1,39 +1,11 @@
 [
   {
-    "title": "Disrupted excitatory/inhibitory balance in EPM1 neural organoids driven by impaired EV dynamics and altered protein cargo",
-    "authors": [
-      "Andrea Forero",
-      "V. Pravata",
-      "Fabrizia Pipicelli",
-      "Alessandro Soloperto",
-      "Francesco Di Matteo",
-      "Zagorka Bekjarova",
-      "Elisa Frenna",
-      "L. Canafoglia",
-      "F. Ragona",
-      "G. Maccarrone",
-      "Mariano Gonzalez Pisfil",
-      "Christian Whal-Schott",
-      "Filippo M. Cernilogar",
-      "Matthias Eder",
-      "R. Di Giaimo",
-      "Silvia Cappello"
-    ],
-    "date": [
-      2026,
-      9
-    ],
-    "journal": "Science Advances",
-    "link": "https://www.science.org/doi/10.1126/sciadv.adu3955",
-    "citations": 0
-  },
-  {
     "title": "A reproducible three-dimensional model of human brain tissue to investigate physiological and disease-associated microglia phenotypes",
     "authors": [
       "Julien Klimmt",
       "Carolina Cardoso Gonçalves",
       "J. V. Montgomery",
-      "Stephan A. Müller",
+      "Stephan A. Mueller",
       "Merle Bublitz",
       "S. Filser",
       "L. Paeger",
@@ -67,6 +39,20 @@
     "citations": 1
   },
   {
+    "title": "In preprints - is birth driving cortical maturation?",
+    "authors": [
+      "V. Pravata",
+      "Clarisse Brunet Avalos"
+    ],
+    "date": [
+      2026,
+      1
+    ],
+    "journal": "Development",
+    "link": "https://doi.org/10.1242/dev.206042",
+    "citations": 0
+  },
+  {
     "title": "Nuclear proteome reveals microtubule-associated protein regulating fate and disease.",
     "authors": [
       "Florencia Merino",
@@ -79,7 +65,7 @@
       "Clemens Steinek",
       "V. Pravata",
       "Claire M. Kittock",
-      "Martina Bürkle",
+      "M. Bürkle",
       "B. Hersbach",
       "Javier Ferri Beneito",
       "F. Giesert",
@@ -95,6 +81,36 @@
     ],
     "journal": "Cell",
     "link": "https://doi.org/10.1016/j.cell.2026.05.019",
+    "citations": 0
+  },
+  {
+    "title": "Defective EV-mediated transport of SHH alters neural fate specification in EPM1 epilepsy",
+    "authors": [
+      "Andrea Forero",
+      "V. Pravata",
+      "Fabrizia Pipicelli",
+      "Elisa Frenna",
+      "A. Soloperto",
+      "Marta Ianni",
+      "Natalia Abate",
+      "F. D. Di Matteo",
+      "Zagorka Bekjarova",
+      "L. Canafoglia",
+      "F. Ragona",
+      "G. Maccarrone",
+      "Mariano Gonzalez Pisfil",
+      "Christian Whal-Schott",
+      "Filippo M. Cernilogar",
+      "M. Eder",
+      "R. Di Giaimo",
+      "Silvia Cappello"
+    ],
+    "date": [
+      2026,
+      1
+    ],
+    "journal": "Science Advances",
+    "link": "https://doi.org/10.1126/sciadv.adu3955",
     "citations": 0
   },
   {
@@ -127,7 +143,7 @@
       "Julien Klimmt",
       "Carolina Cardoso Gonçalves",
       "J. V. Montgomery",
-      "Stephan A. Müller",
+      "Stephan A. Mueller",
       "Merle Bublitz",
       "S. Filser",
       "L. Paeger",
@@ -203,7 +219,7 @@
     ],
     "journal": "Neuropharmacology",
     "link": "https://doi.org/10.1016/j.neuropharm.2025.110784",
-    "citations": 0
+    "citations": 1
   },
   {
     "title": "Zscan4 as a Candidate Conveyor of Early Developmental Defects in O-GlcNAc Transferase Intellectual Disability",
@@ -212,7 +228,7 @@
       "Hao Jiang",
       "A. Ferenbach",
       "A. Lamond",
-      "D. vanAalten"
+      "D. V. van Aalten"
     ],
     "date": [
       2025,
@@ -228,8 +244,8 @@
       "Andrea Forero",
       "V. Pravata",
       "Fabrizia Pipicelli",
-      "Alessandro Soloperto",
-      "Francesco di Matteo",
+      "A. Soloperto",
+      "F. D. Di Matteo",
       "Zagorka Bekjarova",
       "Elisa Frenna",
       "L. Canafoglia",
@@ -253,7 +269,7 @@
   {
     "title": "Neuronal hyperactivity in neurons derived from individuals with gray matter heterotopia",
     "authors": [
-      "Francesco di Matteo",
+      "F. D. Di Matteo",
       "Rebecca Bonrath",
       "V. Pravata",
       "H. Schmidt",
@@ -290,7 +306,7 @@
       "Ignacy Czajewski",
       "A. Bayat",
       "A. Ferenbach",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "D. V. van Aalten"
     ],
     "date": [
@@ -313,8 +329,8 @@
       "Ignacy Czajewski",
       "A. Bayat",
       "A. Ferenbach",
-      "Marios P. Stavridis",
-      "D. vanAalten"
+      "M. Stavridis",
+      "D. V. van Aalten"
     ],
     "date": [
       2023,
@@ -327,13 +343,13 @@
   {
     "title": "O-GlcNAcylation enhances CPS1 catalytic efficiency for ammonia and promotes ureagenesis",
     "authors": [
-      "L. Soria",
+      "Leandro R. Soria",
       "Georgios Makris",
       "A. D’Alessio",
-      "Angela De Angelis",
+      "Angela de Angelis",
       "I. Boffa",
       "V. Pravata",
-      "Véronique Rüfenacht",
+      "V. Rüfenacht",
       "S. Attanasio",
       "E. Nusco",
       "Paola Arena",
@@ -347,8 +363,8 @@
       "E. Richard",
       "L. R. Desviat",
       "Johannes Häberle",
-      "Daan M. F. van Aalten",
-      "N. Brunetti‐Pierri"
+      "D. V. van Aalten",
+      "N. Brunetti-Pierri"
     ],
     "date": [
       2022,
@@ -388,7 +404,7 @@
       "S. Bonelli",
       "M. Calligaris",
       "Elisa Monaca",
-      "Stephan A. Müller",
+      "Stephan A. Mueller",
       "S. Lichtenthaler",
       "S. D. Scilabra"
     ],
@@ -405,7 +421,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -415,7 +431,7 @@
       "S. Joss",
       "C. Schwartz",
       "L. Wells",
-      "D. vanAalten"
+      "D. V. van Aalten"
     ],
     "date": [
       2020,
@@ -430,7 +446,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -440,7 +456,7 @@
       "S. Joss",
       "C. Schwartz",
       "L. Wells",
-      "Daan M. F. van Aalten"
+      "D. V. van Aalten"
     ],
     "date": [
       2020,
@@ -455,7 +471,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -482,12 +498,12 @@
       "M. Gundogdu",
       "S. G. Bartual",
       "A. Ferenbach",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "K. Õunap",
       "S. Pajusalu",
       "R. Žordania",
       "M. Wojcik",
-      "D. Aalten"
+      "D. V. van Aalten"
     ],
     "date": [
       2019,
@@ -495,7 +511,7 @@
     ],
     "journal": "FEBS Letters",
     "link": "https://doi.org/10.1002/1873-3468.13640",
-    "citations": 50
+    "citations": 51
   },
   {
     "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
@@ -515,7 +531,7 @@
     ],
     "journal": "Scientific Reports",
     "link": "https://doi.org/10.1038/s41598-020-69008-9",
-    "citations": 32
+    "citations": 33
   },
   {
     "title": "University of Dundee A missense mutation in the catalytic domain of O-GlcNAc transferase links perturbations in protein O-GlcNAcylation to X-linked intellectual disability Pravata,",
@@ -524,13 +540,13 @@
       "M. Gundogdu",
       "S. G. Bartual",
       "A. Ferenbach",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "K. Õunap",
       "S. Pajusalu",
       "R. Žordania",
       "H. Monica",
       "Wójcik",
-      "D. Aalten"
+      "D. V. van Aalten"
     ],
     "date": [
       2019,
@@ -552,7 +568,7 @@
       "A. C. Wilmes",
       "V. Borodkin",
       "S. Joss",
-      "Marios P. Stavridis",
+      "M. Stavridis",
       "D. V. van Aalten"
     ],
     "date": [
@@ -561,7 +577,7 @@
     ],
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
     "link": "https://doi.org/10.1073/pnas.1900065116",
-    "citations": 72
+    "citations": 73
   },
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
@@ -570,7 +586,7 @@
       "Martina Pigoni",
       "V. Pravata",
       "Tobias Schätzl",
-      "Stephan A. Müller",
+      "S. Müller",
       "L. Troeberg",
       "S. Lichtenthaler"
     ],
