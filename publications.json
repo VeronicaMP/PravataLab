@@ -228,7 +228,7 @@
       "Hao Jiang",
       "A. Ferenbach",
       "A. Lamond",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2025,
@@ -307,7 +307,7 @@
       "A. Bayat",
       "A. Ferenbach",
       "M. Stavridis",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2023,
@@ -315,7 +315,7 @@
     ],
     "journal": "Disease Models & Mechanisms",
     "link": "https://doi.org/10.1242/dmm.049132",
-    "citations": 16
+    "citations": 17
   },
   {
     "title": "An O-GlcNAc transferase pathogenic variant that affects pluripotent stem cell self-renewal",
@@ -330,7 +330,7 @@
       "A. Bayat",
       "A. Ferenbach",
       "M. Stavridis",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2023,
@@ -363,7 +363,7 @@
       "E. Richard",
       "L. R. Desviat",
       "Johannes Häberle",
-      "D. V. van Aalten",
+      "D. van Aalten",
       "N. Brunetti-Pierri"
     ],
     "date": [
@@ -372,7 +372,7 @@
     ],
     "journal": "Nature Communications",
     "link": "https://doi.org/10.1038/s41467-022-32904-x",
-    "citations": 23
+    "citations": 24
   },
   {
     "title": "The citron homology domain as a scaffold for Rho1 signaling",
@@ -385,7 +385,7 @@
       "Kai-Zhou Yan",
       "A. Ferenbach",
       "D. Lockhart",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2021,
@@ -439,7 +439,7 @@
     ],
     "journal": "European Journal of Human Genetics",
     "link": "https://doi.org/10.1038/s41431-020-0589-9",
-    "citations": 63
+    "citations": 64
   },
   {
     "title": "University of Dundee An intellectual disability syndrome with single nucleotide variants in O-GlcNAc Transferase Pravata,",
@@ -503,7 +503,7 @@
       "S. Pajusalu",
       "R. Žordania",
       "M. Wojcik",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2019,
@@ -511,7 +511,7 @@
     ],
     "journal": "FEBS Letters",
     "link": "https://doi.org/10.1002/1873-3468.13640",
-    "citations": 51
+    "citations": 52
   },
   {
     "title": "TIMP-3 facilitates binding of target metalloproteinases to the endocytic receptor LRP-1 and promotes scavenging of MMP-1",
@@ -569,7 +569,7 @@
       "V. Borodkin",
       "S. Joss",
       "M. Stavridis",
-      "D. V. van Aalten"
+      "D. van Aalten"
     ],
     "date": [
       2019,
@@ -577,7 +577,7 @@
     ],
     "journal": "Proceedings of the National Academy of Sciences of the United States of America",
     "link": "https://doi.org/10.1073/pnas.1900065116",
-    "citations": 73
+    "citations": 74
   },
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
