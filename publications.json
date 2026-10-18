@@ -345,7 +345,7 @@
       "Ignacy Czajewski",
       "A. Bayat",
       "A. Ferenbach",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "D. van Aalten"
     ],
     "date": [
@@ -368,7 +368,7 @@
       "Ignacy Czajewski",
       "A. Bayat",
       "A. Ferenbach",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "D. van Aalten"
     ],
     "date": [
@@ -411,7 +411,7 @@
     ],
     "journal": "Nature Communications",
     "link": "https://doi.org/10.1038/s41467-022-32904-x",
-    "citations": 25
+    "citations": 26
   },
   {
     "title": "The citron homology domain as a scaffold for Rho1 signaling",
@@ -445,7 +445,7 @@
       "Elisa Monaca",
       "Stephan A. Mueller",
       "S. Lichtenthaler",
-      "S. D. Scilabra"
+      "S. Scilabra"
     ],
     "date": [
       2021,
@@ -460,7 +460,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -485,7 +485,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -510,7 +510,7 @@
     "authors": [
       "V. Pravata",
       "M. Omelková",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "Chelsea M. Desbiens",
       "H. Stephen",
       "D. Lefeber",
@@ -537,7 +537,7 @@
       "M. Gundogdu",
       "S. G. Bartual",
       "A. Ferenbach",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "K. Õunap",
       "S. Pajusalu",
       "R. Žordania",
@@ -562,7 +562,7 @@
       "G. Murphy",
       "H. Nagase",
       "L. Troeberg",
-      "S. D. Scilabra"
+      "S. Scilabra"
     ],
     "date": [
       2019,
@@ -570,7 +570,7 @@
     ],
     "journal": "Scientific Reports",
     "link": "https://doi.org/10.1038/s41598-020-69008-9",
-    "citations": 33
+    "citations": 34
   },
   {
     "title": "University of Dundee A missense mutation in the catalytic domain of O-GlcNAc transferase links perturbations in protein O-GlcNAcylation to X-linked intellectual disability Pravata,",
@@ -579,7 +579,7 @@
       "M. Gundogdu",
       "S. G. Bartual",
       "A. Ferenbach",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "K. Õunap",
       "S. Pajusalu",
       "R. Žordania",
@@ -607,7 +607,7 @@
       "A. C. Wilmes",
       "V. Borodkin",
       "S. Joss",
-      "M. Stavridis",
+      "Marios P. Stavridis",
       "D. van Aalten"
     ],
     "date": [
@@ -621,7 +621,7 @@
   {
     "title": "Increased TIMP-3 expression alters the cellular secretome through dual inhibition of the metalloprotease ADAM10 and ligand-binding of the LRP-1 receptor",
     "authors": [
-      "S. D. Scilabra",
+      "S. Scilabra",
       "Martina Pigoni",
       "V. Pravata",
       "Tobias Schätzl",
