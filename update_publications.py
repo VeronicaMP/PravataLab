@@ -93,11 +93,16 @@ def convert_serpapi_articles(articles):
 
 def main():
     publications = None
-    
+
     if SERPAPI_API_KEY:
         articles = fetch_serpapi(GOOGLE_SCHOLAR_ID, SERPAPI_API_KEY)
         if articles:
             publications = convert_serpapi_articles(articles)
+        else:
+            print("SerpAPI returned no data (key may be expired or quota exhausted). Falling back to Semantic Scholar...")
+            papers = fetch_semantic_scholar(SEMANTIC_SCHOLAR_ID)
+            if papers:
+                publications = convert_semantic_scholar_papers(papers)
     else:
         print("SERPAPI_API_KEY environment variable not set. Falling back to Semantic Scholar...")
         papers = fetch_semantic_scholar(SEMANTIC_SCHOLAR_ID)
